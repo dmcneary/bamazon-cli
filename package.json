@@ -1,0 +1,31 @@
+{
+  "name": "bamazon-cli",
+  "version": "1.0.0",
+  "description": "A simple \"purchasing\" CLI to display and update specific database values using node.js and MySQL",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcneary/bamazon-cli.git"
+  },
+  "keywords": [
+    "bamazon",
+    "cli",
+    "node",
+    "MySQL",
+    "trilogy",
+    "bootcamp"
+  ],
+  "author": "David McNeary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmcneary/bamazon-cli/issues"
+  },
+  "homepage": "https://github.com/dmcneary/bamazon-cli#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}

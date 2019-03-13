@@ -65,7 +65,7 @@ function start() {
         }
       }
       //check stock levels
-      if (pick.stock_qty > parseInt(answers.qty_pick)) {
+      if (pick.stock_qty >= parseInt(answers.qty_pick)) {
         //confirm purchase
         inquirer.prompt([
           {

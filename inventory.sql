@@ -8,7 +8,7 @@ CREATE TABLE inventory (
     department_name VARCHAR(60) NULL,
     retail_price DECIMAL(8,2) NOT NULL default 0,
     stock_qty INT NOT NULL default 0,
-    PRIMARY KEY (id)
+    PRIMARY KEY (item_id)
 );
 
 INSERT INTO inventory (product_name, department_name, retail_price, stock_qty)

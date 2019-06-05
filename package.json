@@ -1,6 +1,6 @@
 {
   "name": "bamazon-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A \"purchasing\" CLI to display and update specific database values using node.js and MySQL",
   "main": "bamazon.js",
   "repository": {

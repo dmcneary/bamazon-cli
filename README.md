@@ -26,9 +26,9 @@ Run the seed commands in `inventory.sql` with your favorite SQL client to popula
 ##### Running the app
 
 Type the following into your terminal:  
-`git clone git@github.com:dmcneary/bamazon-cli.git \n
-cd bamazon-cli \n
-npm install \n
-node bamazon`  
+    git clone git@github.com:dmcneary/bamazon-cli.git
+    cd bamazon-cli
+    npm install
+    node bamazon
 
 This app was built as an introduction to backend concepts using node and MySQL.

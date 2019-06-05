@@ -4,7 +4,7 @@ USE bamazon_db;
 
 CREATE TABLE inventory (
     item_id INT AUTO_INCREMENT NOT NULL,
-    product_name VARCHAR(60) NOT NULL,
+    product_name VARCHAR(100) NOT NULL,
     department_name VARCHAR(60) NULL,
     retail_price DECIMAL(8,2) NOT NULL default 0,
     stock_qty INT NOT NULL default 0,
